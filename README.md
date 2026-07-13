@@ -94,6 +94,8 @@ This software was primarily written by `Dr. Zhilong Wang` who is advised by `Pro
 ## Web app
 A online platform was estabilished that allows researchers to query our non-aqueous electrolyte database and predict conductivity properties using our deep learning models. It accelerates the discovery of non-aqueous electrolyte for battery and energy storage applications.
 
+The next-generation, non-Streamlit interface lives in [`web/`](web/). It provides browser-native model inference, atlas search, molecular-library navigation, a global analytics surface, and an extensible Advanced Lab. GitHub Actions deploys it to GitHub Pages after changes reach `main`.
+
         https://peese-scan.streamlit.app/
 
 
